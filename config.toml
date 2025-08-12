@@ -17,7 +17,7 @@ home = [ "HTML", "RSS", "JSON"]
   disableBreadcrumb = false
   disableNextPrev = false
   relativeURLs = true
-  canonifyURLs = false
+  canonifyURLs = true
 
 
 
