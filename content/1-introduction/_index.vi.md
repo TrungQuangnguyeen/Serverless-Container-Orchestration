@@ -12,7 +12,7 @@ pre : " <b> 1. </b> "
 - [ Tổng quan về AWS Fargate](#-tổng-quan-về-aws-fargate)
 - [ Kết quả nhận được](#-kết-quả-nhận-được)
 
-![Fargate Architecture](/images/00/0000.png?featherlight=false&width=90pc)
+![Fargate Architecture](images/00/0000.png?featherlight=false&width=90pc)
 
 ---
 

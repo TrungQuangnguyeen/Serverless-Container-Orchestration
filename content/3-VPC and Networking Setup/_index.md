@@ -30,19 +30,19 @@ pre : " <b> 3. </b> "
 
 #### Create VPC
 1. Go to **VPC Console** → **Create VPC**
-![Create VPC](/images/03/01.png)
+![Create VPC](images/03/01.png)
 2. Choose:
    - Name tag: `fargate-workshop-vpc`
    - IPv4 CIDR: `10.0.0.0/16`
    - Tenancy: Default
-![Create VPC](/images/03/02.png)
+![Create VPC](images/03/02.png)
 
 ---
 
 #### Create Subnets
 1. Go to **Subnets** → **Create subnet**
 2. Select the newly created VPC
-![Create subnet](/images/03/03.png)
+![Create subnet](images/03/03.png)
 3. Create 4 subnets:
    - **Public Subnet 1**: `10.0.1.0/24` (AZ1)
    - **Private Subnet 1**: `10.0.3.0/24` (AZ1)

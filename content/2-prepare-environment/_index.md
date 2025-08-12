@@ -16,7 +16,7 @@ pre : " <b> 2. </b> "
 - [Verify Installation](#verify-installation)
 - [Sample Application](#sample-application)
 
-![Environment Setup](../images/02/environment-setup.png?featherlight=false&width=90pc)
+![Environment Setup](images/02/environment-setup.png?featherlight=false&width=90pc)
 
 ---
 
