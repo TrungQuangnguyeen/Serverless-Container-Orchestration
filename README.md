@@ -1,6 +1,11 @@
 # 🚀 Serverless Container Orchestration with AWS Fargate
 
 ---
+## 🌐 Truy cập trực tiếp lại link:
+
+👉 https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/
+
+```
 
 ## 🇻🇳 Giới thiệu Workshop
 Workshop **"Serverless Container Orchestration with AWS Fargate"** hướng dẫn cách thiết kế và triển khai kiến trúc **microservices** hoàn toàn serverless trên AWS, sử dụng **Amazon ECS (Fargate)** để chạy container mà không cần quản lý hạ tầng EC2.
@@ -46,12 +51,18 @@ Sau khi hoàn thành workshop, bạn sẽ:
 ---
 
 ## 📚 Tài liệu tham khảo
-- [AWS Fargate Documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html)  
-- [Amazon ECS Best Practices](https://aws.github.io/aws-ecs-best-practices/)  
-- [AWS CodePipeline Docs](https://docs.aws.amazon.com/codepipeline/)  
-- [AWS CloudWatch Logs](https://docs.aws.amazon.com/cloudwatch/)  
+ - [AWS Fargate Documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html)  
+ - [Amazon ECS Best Practices](https://aws.github.io/aws-ecs-best-practices/)  
+ - [AWS CodePipeline Docs](https://docs.aws.amazon.com/codepipeline/)  
+ - [AWS CloudWatch Logs](https://docs.aws.amazon.com/cloudwatch/)  
 
----
+ ---
+
+## 🌐 Truy cập trực tiếp lại link:
+
+👉 https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/
+
+```
 
 ## 🇬🇧 Introduction
 The **"Serverless Container Orchestration with AWS Fargate"** workshop guides you through designing and deploying a **fully serverless microservices architecture** on AWS, using **Amazon ECS (Fargate)** to run containers without managing EC2 instances.
