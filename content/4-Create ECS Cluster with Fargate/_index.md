@@ -57,7 +57,7 @@ pre : " <b> 4. </b> "
 3. Enter cluster name: `fargate-workshop-cluster`  
 4. Choose the **VPC** and **Subnets** created in the Networking section  
 5. Click **Create**
-![Create ECS Cluster](/images/04/01.png)
+![Create ECS Cluster](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/04/01.png)
 ---
 
 #### Create Task Definition
@@ -71,7 +71,7 @@ pre : " <b> 4. </b> "
    - Image: `<AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/fargate-workshop-app:latest`
    - Port mappings: `8080` (TCP)
 6. Click **Next step** and **Create**
-![Create Task Definition](/images/04/02.png)
+![Create Task Definition](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/04/02.png)
 ---
 
 #### Deploy Service with Fargate
@@ -92,7 +92,7 @@ pre : " <b> 4. </b> "
    - Create a new target group
    - Listener port: 80
 5. Review and **Create Service**
-![Deploy Service with Fargate](/images/04/03.png)
+![Deploy Service with Fargate](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/04/03.png)
 ---
 
 Once the service is running, you can access the application via the **DNS name** of the Load Balancer.

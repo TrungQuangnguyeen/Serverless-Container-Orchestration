@@ -12,7 +12,7 @@ pre : " <b> 1. </b> "
 - [ AWS Fargate Overview](#-aws-fargate-overview)
 - [ Learning Outcomes](#-learning-outcomes)
 
-![Fargate Architecture](images/00/0000.png?featherlight=false&width=90pc)
+![Fargate Architecture](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/00/0000.png?featherlight=false&width=90pc)
 
 ---
 

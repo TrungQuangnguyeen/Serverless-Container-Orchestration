@@ -21,7 +21,7 @@ Trong workshop thực hành này, bạn sẽ xây dựng một **hệ thống mi
 
 #### Luồng kiến trúc
 
-![Fargate Architecture](images/00/0000.png?featherlight=false&width=90pc)
+![Fargate Architecture](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/00/0000.png?featherlight=false&width=90pc)
 
 #### Mục tiêu Workshop
 

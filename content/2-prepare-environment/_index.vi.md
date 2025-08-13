@@ -60,49 +60,49 @@ Bạn cần một tài khoản AWS với những điều sau:
 
 Thay vì sử dụng tài khoản root, hãy tạo một IAM user chuyên dụng cho workshop này.
 
-1. **Đăng nhập AWS Console** → **IAM**
-![Đăng nhập AWS](/images/02/01.png)
+- Đăng nhập AWS Console → IAM
+![Đăng nhập AWS](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/01.png)
 
-2. **Users** → **Create user**
-![Create user](/images/02/02.png)
+- Users → Create user
+![Đăng nhập AWS](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/01.png)
 
-3. **Chi tiết user:**
+- Chi tiết user:
    - User name: `fargate-workshop-user`
    - Cung cấp quyền truy cập user vào AWS Management Console
 
-![Chi tiết user](/images/02/03.png)
+![Chi tiết user](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/03.png)
 
-4. **Thiết lập quyền:**
+- Thiết lập quyền:
    - Attach policies directly
    - Tìm kiếm và chọn: `AdministratorAccess`
-![Thiết lập quyền](/images/02/04.png)
+![Thiết lập quyền](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/04.png)
 
-5. **Review và tạo**
-![Review và tạo](/images/02/05.png)
+- Review và tạo
+![Review và tạo](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/05.png)
 
-6. **Download credentials** hoặc copy Access Key ID và Secret Access Key
-![download](/images/02/06.png)
+- Download credentials hoặc copy Access Key ID và Secret Access Key
+![download](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/06.png)
 
 ---
 
 #### Cài đặt AWS CLI
 
 
-1. Download AWS CLI MSI installer: https://awscli.amazonaws.com/AWSCLIV2.msi 
+- Download AWS CLI MSI installer: https://awscli.amazonaws.com/AWSCLIV2.msi 
 
-2. Chạy file MSI và làm theo hướng dẫn cài đặt
+- Chạy file MSI và làm theo hướng dẫn cài đặt
 
-3. Mở Command Prompt mới và kiểm tra: aws --version
+- Mở Command Prompt mới và kiểm tra: aws --version
 Kết quả mong đợi: aws-cli/2.15.30 Python/3.11.8 Windows/10 exe/AMD64 prompt/off
 
-4. Kiểm tra cài đặt
+- Kiểm tra cài đặt
 aws --version
  
 ---
 
 #### Cấu hình AWS CLI
 
-1. aws configure
+- aws configure
 
 AWS Access Key ID [None]: AKIA...
 AWS Secret Access Key [None]: wJalrXUt...
@@ -112,13 +112,13 @@ Default output format [None]: json
 
 Kiểm tra cấu hình AWS CLI
 
-2. Kiểm tra danh tính của bạn
+- Kiểm tra danh tính của bạn
 aws sts get-caller-identity
 
-3. Kiểm tra quyền
+- Kiểm tra quyền
 aws s3 ls
 
-4. Kiểm tra region đã cấu hình: aws configure get region
+- Kiểm tra region đã cấu hình: aws configure get region
 Kết quả mong đợi của aws sts get-caller-identity
 
 {
@@ -130,15 +130,15 @@ Kết quả mong đợi của aws sts get-caller-identity
 ---
 
 #### Cài đặt Docker Desktop
-1. Download Docker Desktop: https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe
+- Download Docker Desktop: https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe
 
-2. Chạy installer và làm theo hướng dẫn thiết lập
+- Chạy installer và làm theo hướng dẫn thiết lập
 
-3. Khởi động lại máy tính sau khi cài đặt
+- Khởi động lại máy tính sau khi cài đặt
 
-4. Khởi động Docker Desktop từ Start Menu
+- Khởi động Docker Desktop từ Start Menu
 
-5. Kiểm tra cài đặt:
+- Kiểm tra cài đặt:
 docker --version
 docker run hello-world
 
@@ -146,11 +146,11 @@ docker run hello-world
 
 #### Kiểm tra Docker hoạt động
 
-1. Kiểm tra Docker version: docker --version
+- Kiểm tra Docker version: docker --version
 
-2. Test Docker với hello-world: docker run hello-world
+- Test Docker với hello-world: docker run hello-world
 
-3. Kiểm tra Docker Compose: docker compose version
+- Kiểm tra Docker Compose: docker compose version
 Kết quả mong đợi của Docker hello-world
 
 Hello from Docker!
@@ -158,25 +158,25 @@ Hello from Docker!
 ---
 
 #### Cài đặt Git
-1. Download Git: https://git-scm.com/download/win
+- Download Git: https://git-scm.com/download/win
 Chạy installer với các thiết lập mặc định
 
-2. Kiểm tra cài đặt: git --version
+- Kiểm tra cài đặt: git --version
 Cấu hình Git cơ bản
 
 - Thiết lập tên và email
 git config --global user.name "Tên của bạn"
 git config --global user.email "email@example.com"
 
-3. Kiểm tra cấu hình
+- Kiểm tra cấu hình
 git config --list
 
 ---
 
 ##### Thiết lập Code Editor
-1. VS Code (Khuyến khích) Download VS Code: https://code.visualstudio.com/
+- VS Code (Khuyến khích) Download VS Code: https://code.visualstudio.com/
 
-2. Cài đặt các extensions hữu ích:
+- Cài đặt các extensions hữu ích:
 
 AWS Toolkit - Tích hợp dịch vụ AWS
 Docker - Quản lý Docker container

@@ -30,34 +30,34 @@ pre : " <b> 3. </b> "
 
 #### Create VPC
 1. Go to **VPC Console** → **Create VPC**
-![Create VPC](images/03/01.png)
+![Create VPC](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/03/01.png)
 2. Choose:
    - Name tag: `fargate-workshop-vpc`
    - IPv4 CIDR: `10.0.0.0/16`
    - Tenancy: Default
-![Create VPC](images/03/02.png)
+![Create VPC](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/03/02.png)
 
 ---
 
 #### Create Subnets
 1. Go to **Subnets** → **Create subnet**
 2. Select the newly created VPC
-![Create subnet](images/03/03.png)
+![Create subnet](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/03/03.png)
 3. Create 4 subnets:
    - **Public Subnet 1**: `10.0.1.0/24` (AZ1)
    - **Private Subnet 1**: `10.0.3.0/24` (AZ1)
    - **Public Subnet 2**: `10.0.2.0/24` (AZ2)
    - **Private Subnet 2**: `10.0.4.0/24` (AZ2)
-![Create subnet](/images/03/04.png)
+![Create subnet](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/03/04.png)
 
 ---
 
 #### Create Internet Gateway
 1. Go to **Internet Gateways** → **Create IGW**
-![Create IGW](/images/03/05.png)
+![Create IGW](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/03/05.png)
 2. Name: `fargate-igw`
 3. Attach it to the newly created VPC
-![Create IGW](/images/03/06.png)
+![Create IGW](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/03/06.png)
 
 ---
 
@@ -67,7 +67,7 @@ pre : " <b> 3. </b> "
    - Public Subnet 1 (AZ1)
    - Allocate Elastic IP
 3. Create a second NAT Gateway for Public Subnet 2 (AZ2) for High Availability
-![Create NAT Gateway](/images/03/07.png)
+![Create NAT Gateway](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/03/07.png)
 
 ---
 
@@ -81,7 +81,7 @@ pre : " <b> 3. </b> "
 3. **Private Route Table AZ2**:
    - Route: `0.0.0.0/0` → NAT Gateway AZ2
    - Associate with Private Subnet 2
-![Public Route Table](/images/03/08.png)
+![Public Route Table](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/03/08.png)
 
 ---
 
@@ -95,7 +95,7 @@ pre : " <b> 3. </b> "
 - **Database Security Group** (if using Aurora/DynamoDB in Private Subnet):
   - Inbound: 3306 (Aurora) from Fargate SG
   - Outbound: Allow all
-![Create Security Groups](/images/03/09.png)
+![Create Security Groups](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/03/09.png)
 
 ---
 

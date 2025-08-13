@@ -21,7 +21,7 @@ In this hands-on workshop, you will build a **serverless microservices system** 
 
 #### Architecture Flow
 
-![Fargate Architecture](images/00/0000.png?featherlight=false&width=90pc)
+![Fargate Architecture](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/00/0000.png?featherlight=false&width=90pc)
 
 #### Workshop Goals
 

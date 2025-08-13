@@ -35,7 +35,7 @@ Cleaning up ensures:
    - Select each service → **Delete service** → Confirm.
 3. Wait for all **Tasks** to stop.
 4. Delete the Cluster: **Delete cluster**.
-![Delete ECS Services and Cluster](images/09/01.png)
+![Delete ECS Services and Cluster](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/09/01.png)
 ---
 
 #### Delete Load Balancer and Target Groups
@@ -60,7 +60,7 @@ Cleaning up ensures:
 
 1. Open **VPC Console** → **Your VPCs** → Select the workshop VPC → **Delete**.
 2. Remove related **Subnets**, **Route Tables**, **Internet Gateway**, **NAT Gateway**, and **Security Groups**.
-![Delete VPC and Networking Components](images/09/03.png)
+![Delete VPC and Networking Components](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/09/03.png)
 ---
 
 #### Delete CodePipeline, CodeBuild, and CodeCommit
@@ -76,7 +76,7 @@ Cleaning up ensures:
 1. Open **IAM Console** → **Users** → Select `fargate-workshop-user`.
 2. Remove **Access Keys**.
 3. Delete the user completely.
-![Delete IAM User and Permissions](images/09/04.png)
+![Delete IAM User and Permissions](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/09/04.png)
 ---
 
 #### Check Remaining Costs
@@ -84,7 +84,7 @@ Cleaning up ensures:
 1. Open **Billing & Cost Management**.
 2. Select **Cost Explorer** to review daily costs.
 3. Ensure no services are running unexpectedly.
-![Check Remaining Costs](images/09/05.png)
+![Check Remaining Costs](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/09/05.png)
 ---
 
 **Expected Outcome:**  

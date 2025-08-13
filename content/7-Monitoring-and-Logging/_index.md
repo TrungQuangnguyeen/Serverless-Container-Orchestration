@@ -33,7 +33,7 @@ In this workshop, we will use:
    - Log Group name: `/ecs/fargate-workshop`
    - Region: `us-east-1` (or your chosen AWS region).
 3. Save and redeploy the service.
-![Amazon CloudWatch Logs](images/07/01.png)
+![Amazon CloudWatch Logs](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/07/01.png)
 
 #### Enable Container Insights
 

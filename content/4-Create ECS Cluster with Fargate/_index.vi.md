@@ -57,7 +57,7 @@ pre : " <b> 4. </b> "
 3. Nhập tên cluster: `fargate-workshop-cluster`  
 4. Chọn **VPC** và các **Subnets** đã tạo ở phần Networking  
 5. Chọn **Create**
-![Create ECS Cluster](images/04/01.png)
+![Create ECS Cluster](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/04/01.png)
 ---
 
 #### Tạo Task Definition
@@ -71,7 +71,7 @@ pre : " <b> 4. </b> "
    - Image: `<AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/fargate-workshop-app:latest`
    - Port mappings: `8080` (TCP)
 6. Chọn **Next step** và **Create**
-![Create Task Definition](images/04/02.png)
+![Create Task Definition](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/04/02.png)
 ---
 
 #### Triển khai Service với Fargate
@@ -91,7 +91,7 @@ pre : " <b> 4. </b> "
    - Create new target group
    - Listener port: 80
 5. Review và **Create Service**
-![Deploy Service with Fargate](images/04/03.png)
+![Deploy Service with Fargate](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/04/03.png)
 ---
 
 title: "Tạo ECS Cluster với Fargate"

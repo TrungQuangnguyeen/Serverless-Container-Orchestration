@@ -35,7 +35,7 @@ Dọn dẹp giúp:
    - Chọn từng service → **Delete service** → Xác nhận.
 3. Chờ tất cả các **Tasks** dừng.
 4. Xóa Cluster: **Delete cluster**.
-![Deploy Service with Fargate](images/04/03.png)
+![Deploy Service with Fargate](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/04/03.png)
 ---
 
 #### Xóa Load Balancer và Target Groups
@@ -43,7 +43,7 @@ Dọn dẹp giúp:
 1. Mở **EC2 Console** → **Load Balancers**.
 2. Chọn ALB đã tạo (ví dụ: `fargate-workshop-alb`) → **Delete**.
 3. Mở **Target Groups** → Xóa các nhóm liên quan đến ALB.
-![Delete ECS Services and Cluster](images/09/01.png)
+![Delete ECS Services and Cluster](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/09/01.png)
 ---
 
 #### Xóa ECR Repositories
@@ -60,7 +60,7 @@ Dọn dẹp giúp:
 
 1. Mở **VPC Console** → **Your VPCs** → Chọn VPC workshop → **Delete**.
 2. Xóa các **Subnets**, **Route Tables**, **Internet Gateway**, **NAT Gateway**, **Security Groups** liên quan.
-![Delete VPC and Networking Components](images/09/03.png)
+![Delete VPC and Networking Components](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/09/03.png)
 ---
 
 #### Xóa CodePipeline, CodeBuild và CodeCommit
@@ -76,7 +76,7 @@ Dọn dẹp giúp:
 1. Mở **IAM Console** → **Users** → Chọn `fargate-workshop-user`.
 2. Xóa các **Access Keys**.
 3. Xóa User hoàn toàn.
-![Delete IAM User and Permissions](images/09/04.png)
+![Delete IAM User and Permissions](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/09/04.png)
 ---
 
 #### Kiểm tra chi phí còn lại
@@ -84,7 +84,7 @@ Dọn dẹp giúp:
 1. Mở **Billing & Cost Management**.
 2. Chọn **Cost Explorer** để kiểm tra chi phí theo ngày.
 3. Đảm bảo không còn dịch vụ nào hoạt động ngoài ý muốn.
-![Check Remaining Costs](images/09/05.png)
+![Check Remaining Costs](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/09/05.png)
 ---
 
 **Kết quả mong đợi:**  

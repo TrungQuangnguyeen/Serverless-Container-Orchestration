@@ -33,7 +33,7 @@ Trong workshop này, chúng ta sẽ sử dụng:
    - Đặt tên Log Group: `/ecs/fargate-workshop`
    - Region: `us-east-1` (hoặc region của bạn).
 3. Lưu và redeploy service.
-![Amazon CloudWatch Logs](images/07/01.png)
+![Amazon CloudWatch Logs](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/07/01.png)
 ---
 
 #### Kích hoạt Container Insights

@@ -16,7 +16,7 @@ pre : " <b> 2. </b> "
 - [Verify Installation](#verify-installation)
 - [Sample Application](#sample-application)
 
-![Environment Setup](images/02/environment-setup.png?featherlight=false&width=90pc)
+![Environment Setup](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/environment-setup.png?featherlight=false&width=90pc)
 
 ---
 
@@ -63,26 +63,26 @@ You need an AWS account with the following:
 Instead of using the root account, create a dedicated IAM user for this workshop.
 
 1. **Log in to AWS Console** → **IAM**
-![Log in to AWS Console](/images/02/01.png)
+![Log in to AWS Console](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/01.png)
 
 2. **Users** → **Create user**
-![Create user](/images/02/02.png)
+![Create user](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/02.png)
 
 3. **User details:**
    - User name: `fargate-workshop-user`
    - Provide user access to AWS Management Console
-   ![User details](/images/02/03.png)
+   ![User details](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/03.png)
 
 4. **Set permissions:**
    - Attach policies directly
    - Search and select: `AdministratorAccess`
-   ![Set permissions](/images/02/04.png)
+   ![Set permissions](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/04.png)
 
 5. **Review and create**
-![Review and create](/images/02/05.png)
+![Review and create](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/05.png)
 
 6. **Download credentials** or copy Access Key ID and Secret Access Key
-![Download credentials](/images/02/06.png)
+![Download credentials](https://trungquangnguyeen.github.io/Serverless-Container-Orchestration/images/02/06.png)
 
 
 ---
