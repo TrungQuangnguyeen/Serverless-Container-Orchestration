@@ -16,8 +16,6 @@ pre : " <b> 2. </b> "
 - [Kiểm tra cài đặt](#kiểm-tra-cài-đặt)
 - [Ứng dụng mẫu](#ứng-dụng-mẫu)
 
-![Environment Setup](images/02/environment-setup.png?featherlight=false&width=90pc)
-
 ---
 
 #### Danh sách yêu cầu
